@@ -17,3 +17,11 @@ btn.addEventListener("click", () => {
     head.classList.toggle('light-head');
     welc.classList.toggle('light-head');
 })
+
+const imgs = document.querySelectorAll('img');
+
+imgs.forEach((img) => {
+    img.addEventListener("dblclick", () => {
+        console.log("image clicked");
+    })
+})
